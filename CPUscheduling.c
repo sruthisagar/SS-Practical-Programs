@@ -4,9 +4,11 @@
 		Date: 25/11/2021
 */
 
-------PROGRAM------
+//------PROGRAM------
 
-#include <stdio.h>
+
+
+#include<stdio.h>
 #include <stdlib.h>
 
 int process[10], arrival[10], burst[10], bt[10], prio[10], turnaround[10], waiting[10], ct[10], tq, n;
@@ -367,119 +369,119 @@ void main()
 	}
 }
 
-------OUTPUT------
+// ------OUTPUT------
 
-1.FCFS 
-2.SJF 
-3.Priority 
-4.Round Robin 
-5.Exit 
+// 1.FCFS 
+// 2.SJF 
+// 3.Priority 
+// 4.Round Robin 
+// 5.Exit 
 
-Enter your choice
-1
+// Enter your choice
+// 1
 
-Enter the no of processes
-4
-Enter the arrival time of processes
-0 1 5 6
-Enter the burst time of processes
-2 2 3 4
+// Enter the no of processes
+// 4
+// Enter the arrival time of processes
+// 0 1 5 6
+// Enter the burst time of processes
+// 2 2 3 4
 
-Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
-   P1			0				2				0				2
-   P2			1				2				1				3
-   P3			5				3				0				3
-   P4			6				4				2				6
-Average turnaround time = 3.50
-Average waiting time = 0.75
+// Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
+//    P1			0				2				0				2
+//    P2			1				2				1				3
+//    P3			5				3				0				3
+//    P4			6				4				2				6
+// Average turnaround time = 3.50
+// Average waiting time = 0.75
 
-1.FCFS 
-2.SJF 
-3.Priority 
-4.Round Robin 
-5.Exit 
+// 1.FCFS 
+// 2.SJF 
+// 3.Priority 
+// 4.Round Robin 
+// 5.Exit 
 
-Enter your choice
-2
+// Enter your choice
+// 2
 
-Enter the no of processes
-4
-Enter the arrival time of processes
-1 2 3 5
-Enter the burst time of processes
-3 2 1 2
+// Enter the no of processes
+// 4
+// Enter the arrival time of processes
+// 1 2 3 5
+// Enter the burst time of processes
+// 3 2 1 2
 
-Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
-   P1			1				3				0				3
-   P3			3				1				1				2
-   P4			5				2				0				2
-   P2			2				2				5				7
-Average turnaround time = 3.50
-Average waiting time = 1.50
+// Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
+//    P1			1				3				0				3
+//    P3			3				1				1				2
+//    P4			5				2				0				2
+//    P2			2				2				5				7
+// Average turnaround time = 3.50
+// Average waiting time = 1.50
 
-1.FCFS 
-2.SJF 
-3.Priority 
-4.Round Robin 
-5.Exit 
+// 1.FCFS 
+// 2.SJF 
+// 3.Priority 
+// 4.Round Robin 
+// 5.Exit 
 
-Enter your choice
-3
+// Enter your choice
+// 3
 
-Enter the no of processes
-5     
-Enter the arrival time of processes
-0 2 2 4 3
-Enter the burst time of processes
-2 1 8 4 5
-Enter the priorities
-2 1 4 2 3
+// Enter the no of processes
+// 5     
+// Enter the arrival time of processes
+// 0 2 2 4 3
+// Enter the burst time of processes
+// 2 1 8 4 5
+// Enter the priorities
+// 2 1 4 2 3
 
-Process    Arrival Time    Burst Time    Priority    Waiting Time    Turnaround Time
-   P1			0				2			2				0				2
-   P2			2				1			1				0				1
-   P3			2				8			4				10				18
-   P5			3				5			3				0				5
-   P4			4				4			2				4				8
-Average turnaround time = 6.80
-Average waiting time = 2.80
+// Process    Arrival Time    Burst Time    Priority    Waiting Time    Turnaround Time
+//    P1			0				2			2				0				2
+//    P2			2				1			1				0				1
+//    P3			2				8			4				10				18
+//    P5			3				5			3				0				5
+//    P4			4				4			2				4				8
+// Average turnaround time = 6.80
+// Average waiting time = 2.80
 
-1.FCFS 
-2.SJF 
-3.Priority 
-4.Round Robin 
-5.Exit 
+// 1.FCFS 
+// 2.SJF 
+// 3.Priority 
+// 4.Round Robin 
+// 5.Exit 
 
-Enter your choice
-4
+// Enter your choice
+// 4
 
-Enter the no of processes
-5
-Enter the arrival time of processes
-0 2 2 4 3
-Enter the burst time of processes
+// Enter the no of processes
+// 5
+// Enter the arrival time of processes
+// 0 2 2 4 3
+// Enter the burst time of processes
 
-2 1 8 4 5
-Enter the time quantum
-3
+// 2 1 8 4 5
+// Enter the time quantum
+// 3
 
-Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
-   P1			0				2				0				2
-   P2			2				1				0				1
-   P3			2				8				10				18
-   P5			3				5				9				14
-   P4			4				4				10				14
+// Process    Arrival Time    Burst Time    Waiting Time    Turnaround Time
+//    P1			0				2				0				2
+//    P2			2				1				0				1
+//    P3			2				8				10				18
+//    P5			3				5				9				14
+//    P4			4				4				10				14
 
-Time quantum = 3
-Average turnaround time = 9.80
-Average waiting time = 5.80
+// Time quantum = 3
+// Average turnaround time = 9.80
+// Average waiting time = 5.80
 
-1.FCFS 
-2.SJF 
-3.Priority 
-4.Round Robin 
-5.Exit 
+// 1.FCFS 
+// 2.SJF 
+// 3.Priority 
+// 4.Round Robin 
+// 5.Exit 
 
-Enter your choice
-5
+// Enter your choice
+// 5
 

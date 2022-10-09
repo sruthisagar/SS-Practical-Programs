@@ -6,9 +6,7 @@
 		Date: 30/11/2021
 */
 
-------PROGRAM------
-
-#include <stdio.h>
+#include<stdio.h>
 #include <stdlib.h>
 
 int file[20], start[20], len[20], block[20][20], n, st, l, flag;
@@ -211,7 +209,7 @@ void main()
 	}
 }
 
-
+/*
 ------OUTPUT------
 
 1.Sequential 
@@ -327,3 +325,4 @@ File	Start	Length	Blocks
 
 Enter your choice
 4
+*/

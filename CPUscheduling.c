@@ -81,13 +81,13 @@ void display(int k)
 {
 	if(k == 3)
 	{
-		printf("\nProcess    Arrival Time    Burst Time    Priority    Waiting Time    Turnaround Time\n");
+		printf("\nProcess\t\tArrival Time\t\tBurst Time\t\tPriority\t\tWaiting Time\t\tTurnaround Time\n");
 		for(int i=0; i<n; i++)
 			printf("   P%i\t\t%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], prio[i], waiting[i], turnaround[i]);
 	}
 	else
 	{ 
-		printf("\nProcess    Arrival Time    Burst Time    Waiting Time    Turnaround Time\n");
+		printf("\nProcess\t\tArrival Time\t\tBurst Time\t\tWaiting Time\t\tTurnaround Time\n");
 		for(int i=0; i<n; i++)
 			printf("   P%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], waiting[i], turnaround[i]);
 	}

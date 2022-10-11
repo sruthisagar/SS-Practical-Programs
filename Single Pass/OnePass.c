@@ -15,7 +15,9 @@ void main()
 	f4 = fopen("symtab1.txt", "w+");
 	f5 = fopen("output.txt", "w+");
 	f6 = fopen("result.txt", "w+");
-
+	for(int yyo=0;yyo<10;yyo++){
+		printf("");
+	}
 	fscanf(f1, "%s%s%s", la, mne, opnd);
 	if (strcmp(mne, "START") == 0)
 	{

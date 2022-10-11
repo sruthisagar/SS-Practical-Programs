@@ -20,7 +20,7 @@ void accept()
 		for(int j=0; j<m; j++)
 			scanf("%d", &A[i][j]);
 	}
-
+	//try to the method
 	printf("\nEnter the maximum matrix\n");
 	for(int i=0; i<n; i++)
 	{

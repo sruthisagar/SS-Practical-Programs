@@ -1,12 +1,3 @@
-/*      
-        EXPERIMENT NO: 6
-        EXPERIMENT NAME: PASS 2 OF 2 PASS ASSEMBLER
-        AIM: To implement pass 2 of a 2 pass assembler
-        AUTHOR: SRUTHI SAGAR
-        Date: 16/12/2021
-*/
-
-// ------PROGRAM------
 
 #include <stdio.h>
 #include <string.h>
@@ -152,41 +143,3 @@ void main()
     fclose(output);
 }
 
-// ------input.txt------
-
-// -    PGM START   1000
-// 1000 -   LDA ALPHA   
-// 1003 -   ADD INCR    
-// 1006 -   SUB ONE 
-// 1009 -   STA BETA    
-// 100C ALPHA   WORD    1   
-// 100F INCR    RESW    1   
-// 1012 ONE     WORD    1   
-// 1015 BETA    RESW    1   
-// 1018 -   END -
-
-// ------optab.txt------
-
-// START    -
-// LDA      00
-// ADD      18
-// SUB      1C
-// STA      0C
-// END      -
-
-// ------symbol.txt------
-
-// 100C ALPHA   
-// 100F INCR    
-// 1012 ONE     
-// 1015 BETA    
-
-// ------length.txt------
-
-// 24
-
-// ------output.txt------
-
-// H^PGM^001000^18
-// T^001000^12^00100C^18100F^1C1012^0C1015^000001^000001
-// E^001000

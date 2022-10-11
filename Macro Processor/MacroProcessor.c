@@ -1,10 +1,3 @@
-/*      
-        EXPERIMENT NO: 9
-        EXPERIMENT NAME: SINGLE PASS MACRO PROCESSOR
-        AIM: To implement a single pass macro processor
-        AUTHOR: SRUTHI SAGAR
-        Date: 15/02/2022
-*/
 
 // ------PROGRAM------
 
@@ -126,41 +119,3 @@ void main()
     fclose(f5);
 }
 
-
-// input.txt
-// ---------
-// EX1     MACRO   &A,&B
-// -       LDA     &A
-// -       STA     &B
-// -       MEND    -
-// SAMPLE  START   1000
-// -       EX1     N1,N2
-// N1      RESW    1
-// N2      RESW    1
-// -       END     -
-
-// namtab.txt
-// ----------
-// EX1
-
-// deftab.txt
-// ----------
-// EX1	    &A,&B
-// LDA	    ?1
-// STA	    ?2
-// MEND
-
-// argtab.txt
-// ----------
-// N1
-// N2
-
-// op.txt
-// ------
-// SAMPLE  START	1000
-// .       EX1	    N1,N2
-// -       LDA	    ?1
-// -       STA	    ?2
-// N1      RESW	1
-// N2      RESW	1
-// -       END	    -

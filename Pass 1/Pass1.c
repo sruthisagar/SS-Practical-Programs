@@ -1,12 +1,3 @@
-/*		
-		EXPERIMENT NO: 5
-		EXPERIMENT NAME: PASS 1 OF 2 PASS ASSEMBLER
-		AIM: To implement pass 1 of a 2 pass assembler
-		AUTHOR: SRUTHI SAGAR
-		Date: 09/12/2021
-*/
-
-// ------PROGRAM------
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -80,49 +71,3 @@ void main()
     fclose(symbol);
     fclose(output);
 }
-
-// ------input.txt------
-
-// PGM		START	1000
-// -		LDA		ALPHA
-// -		ADD 	INCR
-// -		SUB		ONE
-// -		STA 	BETA
-// ALPHA	WORD	1
-// INCR	RESW	1
-// ONE		WORD	1
-// BETA	RESW	1
-// -		END		-
-
-// ------optab.txt------
-
-// START	-
-// LDA		00
-// ADD		18
-// SUB		1C
-// STA		0C
-// END		-
-
-// ------symbol.txt------
-
-// ALPHA	100C
-// INCR	100F
-// ONE		1012
-// BETA	1015
-
-// ------output.txt------
-
-// 		PGM		START	1000
-// 1000	-		LDA		ALPHA	
-// 1003	-		ADD		INCR	
-// 1006	-		SUB		ONE	
-// 1009	-		STA		BETA	
-// 100C	ALPHA	WORD	1	
-// 100F	INCR	RESW	1	
-// 1012	ONE		WORD	1	
-// 1015	BETA	RESW	1	
-// 		-		END		-
-
-// ------OUTPUT------
-
-// Length of code = 18

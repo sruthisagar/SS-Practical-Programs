@@ -1,12 +1,3 @@
-/*      
-        EXPERIMENT NO: 
-        EXPERIMENT NAME: SINGLE PASS ASSEMBLER
-        AIM: To implement single pass assembler
-        AUTHOR: SRUTHI SAGAR
-        Date: 13/01/2022
-*/
-
-// ------PROGRAM------
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -155,31 +146,3 @@ void main()
 	fclose(f6);
 }
 
-// ------input.txt------
-
-// COPY	START	1000
-// -		LDA		ALPHA
-// -		STA		BETA
-// ALPHA	RESW	1
-// BETA	RESW	1
-// -		END		-
-
-// ------optab.txt------
-
-// LDA		00
-// STA		23
-// LDCH	15
-// STCH	18
-
-// ------symbtab1.txt------
-
-// ALPHA	001006
-// BETA	001009
-
-// ------result.txt------
-
-// H^COPY^001000^00000C
-// T^001000^0c^000000^230000
-// T^001001^02^001006
-// T^001004^02^001009
-// E^001000

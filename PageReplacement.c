@@ -15,8 +15,8 @@ int n, frameno, page[50], frame[10], move=0, flag, count=0, count1, repindex, ch
 
 void display()
 {
-	for(int x=0; x<frameno; x++)
-		printf("%d\t",frame[x]);
+	for(int i=0; i<frameno; i++)
+		printf("%d\t",frame[i]);
 	printf("\n");
 }
 
@@ -161,8 +161,13 @@ void main()
 	scanf("%d",&n);
 
 	printf("\nEnter the reference string\n");
-	for(int i=0; i<n; i++)
-		scanf("%d", &page[i]);
+	int run=0;
+	while(run<n){
+		scanf("%d", &page[run]);
+		run++;
+	}
+// 	for(int i=0; i<n; i++)
+// 		scanf("%d", &page[i]);
 
 	printf("\nEnter the number of frames\n");
 	scanf("%d", &frameno);

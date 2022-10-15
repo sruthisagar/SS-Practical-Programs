@@ -24,8 +24,10 @@ void swap(int *a, int *b)
 
 void sort(int k)
 {
-	for(int i=0; i<n; i++)
+	int i = 0;
+	while(i<n)
 	{
+		i++;
 		for(int j=0; j<n-1; j++)
 		{
 			if(arrival[j] > arrival[j+1])
@@ -83,13 +85,13 @@ void display(int k)
 	{
 		printf("\nProcess\t\tArrival Time\t\tBurst Time\t\tPriority\t\tWaiting Time\t\tTurnaround Time\n");
 		for(int i=0; i<n; i++)
-			printf("   P%i\t\t%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], prio[i], waiting[i], turnaround[i]);
+			printf("P%i\t\t%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], prio[i], waiting[i], turnaround[i]);
 	}
 	else
 	{ 
 		printf("\nProcess\t\tArrival Time\t\tBurst Time\t\tWaiting Time\t\tTurnaround Time\n");
 		for(int i=0; i<n; i++)
-			printf("   P%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], waiting[i], turnaround[i]);
+			printf("P%i\t\t%i\t\t%i\t\t%i\t\t%i\n", process[i], arrival[i], burst[i], waiting[i], turnaround[i]);
 	}
 
 	if(k == 4)

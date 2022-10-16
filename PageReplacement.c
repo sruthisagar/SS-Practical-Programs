@@ -104,8 +104,8 @@ void lru()
 			count++;
 			display();
 		}
-		for(int j=0; j<50; j++)
-			check[j] = 0;
+		for(int l=0; l<50; l++)
+			check[l] = 0;
 	}
 	printf("Page faults in LRU = %d\n", count);
 }

@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+// The aim of the program is to implement Absolute loader in C
+
 char input[10], label[10], hexstr[2];
 int addr, f = 0, start, ptaddr, l, length = 0, end, count = 0, taddr, address, i = 0;
 FILE *fp1, *fp2;
@@ -117,3 +119,4 @@ void main()
     fclose(fp2);
 }
 
+// END

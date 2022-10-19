@@ -1,10 +1,10 @@
 /*		
-		EXPERIMENT NO - 1
+		EXPERIMENT NO - 01
 		CPU SCHEDULING
 		Date: 25/11/2021
 */
 
-//------PROGRAM------
+//--------PROGRAM--------
 
 
 

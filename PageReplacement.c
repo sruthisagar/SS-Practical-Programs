@@ -12,7 +12,12 @@
 #include <stdlib.h>
 
 int n, frameno, page[50], frame[10], move=0, flag, count=0, count1, repindex, check[50], hit=0, coun[50], time[50], least, minTime, temp;
-
+void print10{
+	for(int i=0;i<10;i++){
+		printf("%d ",i);
+	}
+	printf("\n");
+}
 void display()
 {
 	for(int i=0; i<frameno; i++)
@@ -153,7 +158,9 @@ void lfu()
 	}
 	printf("Page faults in LFU = %d\n", n-hit);
 }
-
+void hello(){
+	printf("Hello\n");
+}
 void main()
 {
 	int ch;
